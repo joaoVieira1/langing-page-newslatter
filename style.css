@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body{
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: 'sarala', sans-serif;
+    max-width: 1150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.titulo-menu{
+    line-height: 10px;
+}
+
+#titulo-um{
+    font-weight: 200;
+}
+
+#titulo-dois{
+    font-weight: 200;
+}
+
+.links-menu{
+    display: flex;
+    gap: 60px;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.escritos{
+    line-height: 18px;
+}
+
+#escrito-um{
+    color: blueviolet;
+    font-size: 60px;
+}
+
+#escrito-dois{
+    font-size: 55px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#nome{
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+}
+
+#email{
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+}
+
+#enviar{
+    height: 30px;
+    width: 160px;
+    height: 35px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+img{
+    margin-left: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
